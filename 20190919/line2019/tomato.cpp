@@ -49,15 +49,15 @@ queue <pair<int,int> > tmpQ;
             }
         }
     }
-for(int i = 0 ; i < N ; i++)
-{
-    for(int j = 0 ; j < M ; j++)
-        {
-            cout<<table[i][j]<<" ";
-        }
-        cout<<endl;
-}
-cout<<endl;;
+// for(int i = 0 ; i < N ; i++)
+// {
+//     for(int j = 0 ; j < M ; j++)
+//         {
+//             cout<<table[i][j]<<" ";
+//         }
+//         cout<<endl;
+// }
+// cout<<endl;;
 matureTomato = tmpQ;
 time++;
 }
