@@ -1,0 +1,12 @@
+#include <iostream>
+#include <regex>
+#include <string>
+using namespace std;
+int main()
+{
+string str = "roung@gmail.org";
+regex pattern("^[a-z*.]+@[a-z]+.(org|com|net)$");
+cout<<regex_match(str,pattern)<<endl;
+
+
+}
