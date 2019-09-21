@@ -4,7 +4,7 @@
 using namespace std;
 int main()
 {
-string str = "roung@gmail.org";
+string str = "@.org";
 regex pattern("^[a-z*.]+@[a-z]+.(org|com|net)$");
 cout<<regex_match(str,pattern)<<endl;
 
