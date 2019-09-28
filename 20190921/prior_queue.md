@@ -21,7 +21,7 @@
 
 2. primitive type 내림 차순
 
-3. ```c++
+  ```c++
    #include <queue>
    #include <vector>
 #inclue <functional>
@@ -33,9 +33,9 @@
   }
   ```
   
-  3. 구조체 정렬 커스텀
+3. 구조체 정렬 커스텀
   
-5. ```c++
+  ```c++
     #include <queue>
    #include <iostream>
    #include <vector>
